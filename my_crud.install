@@ -1,0 +1,18 @@
+<?php
+
+  function my_crud_schema(){
+
+    $schema['my_crud'] = ['description'=>'This talbe is used to create CRUD opeations',
+    'fields'=>['id'=>['description'=>'the primary identifier of the table',
+    'type'=>'serial','not null'=> TRUE, 'unsigned'=>'TRUE'],
+
+    'name'=>['description'=>'Name of the user',
+    'type'=>'varchar','length'=>'40','not null'=>TRUE,],
+
+    'age'=>['description'=>'age of the user',
+    'type'=>'varchar','length'=>'40','not null'=>TRUE,],],
+
+    'primary key'=>['id'],];
+    return $schema;
+  }
+?>

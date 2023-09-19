@@ -1,0 +1,5 @@
+name: CRUD Operations
+description: Custom Module with CRUD Operations
+type: module
+package: Custom
+core_version_requirement: ^10
